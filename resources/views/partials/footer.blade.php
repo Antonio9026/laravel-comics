@@ -29,7 +29,7 @@ $footerLinks = [
 @endphp
 <footer>
     <div class="footer-main">
-        <div class="container">
+        <div class="foot-container">
             <nav>
                 @foreach ( $footerLinks as $category )
                     

@@ -17,7 +17,7 @@
         @include('partials.hero')
         @include('partials.cardList')
         @include('partials.banner')
-        @yield('content')
+        {{-- @yield('content') --}}
 
     </main>
     {{-- includo footer  --}}

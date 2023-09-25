@@ -156,7 +156,7 @@ main {
       color: #ffffff;
       display: flex;
 
-      s .nav-col {
+       .nav-col {
         min-width: 120px;
         padding: 10px;
         margin: 10px;
@@ -170,17 +170,46 @@ main {
           padding: 3px;
           font-size: 12px;
           color: #687980;
+         list-style-type: none;
 
           .footer-link {
             color: #687980;
+            text-decoration: none;
           }
         }
 
-        li:hover {
+        .footer-list-item:hover {
           color: #cecece;
           text-decoration: underline;
         }
       }
     }
   }
+}
+
+// bottom footer 
+#footBottom{
+  background-color: #303030;
+}
+.foot-bottom-container{
+  height: 60px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.socialMedia{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.foot-bottom-list-item{
+  list-style-type: none;
+}
+
+.foot-bottom-list{
+  display: flex;
+  gap: 20px;
 }
