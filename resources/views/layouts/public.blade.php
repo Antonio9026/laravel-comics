@@ -13,11 +13,9 @@
 <body>
     {{-- includo header  --}}
     @include('partials.header')
-    <main>
-        @include('partials.hero')
-        @include('partials.cardList')
-        @include('partials.banner')
-        {{-- @yield('content') --}}
+     <main>
+      
+     @yield('content')
 
     </main>
     {{-- includo footer  --}}
